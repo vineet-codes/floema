@@ -1,0 +1,33 @@
+{
+  "name": "floema",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "webpack --progress --config ./webpack.config.build.js",
+    "dev": "webpack serve --progress --config  ./webpack.config.development.js",
+    "start": "npm run dev"
+  },
+  "author": "Vineet Kumar Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.2.0",
+    "file-loader": "^6.2.0",
+    "glslify-loader": "^2.0.0",
+    "image-minimizer-webpack-plugin": "^2.2.0",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "mini-css-extract-plugin": "^2.2.1",
+    "postcss-loader": "^6.1.1",
+    "sass": "^1.41.0",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.1.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {}
+}
